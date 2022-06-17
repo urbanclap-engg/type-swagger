@@ -6,10 +6,10 @@
   },
   "main": "dist/core/",
   "typings": "dist/core/index.d.ts",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:urbanclap-engg/type-swagger.git"
-   },
+  },
   "scripts": {
     "ts_swagger_generator": "node dist/ts_swagger/cli.js",
     "clean": "rimraf dist/ build/ {src,test}/**/*.{js,js.map}",
